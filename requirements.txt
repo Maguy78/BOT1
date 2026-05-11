@@ -3,4 +3,3 @@ uvicorn==0.30.6
 requests==2.32.3
 langchain-groq==0.2.0
 python-multipart==0.0.9
-
