@@ -10,7 +10,7 @@ WHATSAPP_TOKEN = os.getenv("WHATSAPP_TOKEN")
 PHONE_NUMBER_ID = os.getenv("PHONE_NUMBER_ID")
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
-llm = ChatGroq(groq_api_key=GROQ_API_KEY, model_name="llama3-8b-8192")
+llm = ChatGroq(groq_api_key=GROQ_API_KEY, model_name="llama-3.3-70b-versatile")
 
 @app.get("/webhook")
 async def verify_webhook(request: Request):
